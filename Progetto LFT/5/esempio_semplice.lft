@@ -1,0 +1,10 @@
+    /*ciao*****/
+    (do
+    (read _alpha1)
+    (read beta_2)
+    (while (<> _alpha1 beta_2)
+        (cond (> _alpha1 beta_2) (= _alpha1 (- _alpha1 beta_2)) (else (= beta_2 (- beta_2 _alpha1))))
+    )
+    (print _alpha1 beta_2 1000)
+)
+//commento
